@@ -32,11 +32,13 @@ img {
 
 /* Flexbox container */
 .container {
-  display: flex;             /* activates Flexbox */
-  flex-direction: row-reverse; /* arrange images in reverse order */
-  flex-wrap: wrap;           /* allow images to move to new lines if needed */
-  justify-content: center;   /* center images horizontally */
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  max-width: 620px; /* 2 ảnh (300px + margin) mỗi hàng */
+  margin: auto;
 }
+
 
 /* Footer / citation */
 h4 {
