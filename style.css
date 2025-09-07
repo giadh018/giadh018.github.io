@@ -35,7 +35,7 @@ img {
   display: flex;
   flex-wrap: wrap;           
   justify-content: center;   
-  max-width: 620px; /* 2 ảnh (300px + margin) mỗi hàng */
+  max-width: 900px;
   margin: auto;
 }
 
